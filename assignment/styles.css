@@ -1,0 +1,90 @@
+/*Set the CSS properties for html page and elements.[PhyoMin]*/
+.bodyDisplay {
+  background-color: ghostwhite;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  border-style: dotted;
+  border-radius: 12%;
+  border-color: darkslateblue;
+
+  text-align: center;
+  margin-left: 25%;
+  width: 55%;
+}
+
+.self {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.tagLine {
+  font-family: "Trebuchet MS";
+  font-size: larger;
+}
+
+h2 {
+  margin-top: 2%;
+}
+
+.name {
+  color: darkblue;
+  font-size: medium;
+  text-align: center;
+}
+
+a.linkStyle:hover {
+  color: royalblue;
+}
+
+.linkStyle {
+  font-style: italic;
+  text-align: center;
+}
+
+.txtLocation {
+  text-align: center;
+}
+
+.location {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+  height: 5%;
+  padding: 0.5%;
+  margin-left: 47%;
+}
+
+.hobbyList {
+  margin-top: 1%;
+  margin-bottom: -1%;
+  text-align: center;
+  color: darkslategrey;
+}
+
+.listContainer {
+  text-align: center;
+}
+
+.listMain {
+  display: inline-block;
+  text-align: left;
+}
+
+.listItem {
+  color: darkslateblue;
+}
+
+.aboutSelf {
+  border-color: lightsteelblue;
+  font-size: medium;
+  font-family: monospace;
+  text-align: center;
+}
